@@ -19,7 +19,6 @@ public class AnagramDetection {
     }
 
     private static boolean areAnagrams(String str1, String str2) {
-        // Remove spaces and convert strings to character arrays
         char[] charArray1 = str1.replaceAll("\\s", "").toCharArray();
         char[] charArray2 = str2.replaceAll("\\s", "").toCharArray();
 
